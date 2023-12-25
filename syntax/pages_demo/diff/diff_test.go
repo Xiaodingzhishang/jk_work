@@ -1,5 +1,5 @@
 package diff
 
-func UseHello()  {
-	
+func UseHello() {
+
 }

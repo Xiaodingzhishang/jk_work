@@ -1,5 +1,5 @@
 package diff
 
-func Hello()  {
-	
+func Hello() {
+
 }
