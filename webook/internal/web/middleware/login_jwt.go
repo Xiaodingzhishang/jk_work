@@ -48,6 +48,7 @@ func (l *LoginJwtMiddlewareBuilder) Builder() gin.HandlerFunc {
 			ctx.AbortWithStatus(http.StatusUnauthorized)
 			return
 		}
+
 		if token == nil || !token.Valid {
 			ctx.AbortWithStatus(http.StatusUnauthorized)
 			return
